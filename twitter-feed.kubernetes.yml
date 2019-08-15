@@ -49,8 +49,8 @@ spec:
   ports:
   - port: 30000
     targetPort: 8080
+    type: LoadBalancer
   selector:
     app: twitter-feed
     color: green
-  type: LoadBalancer
 ---
